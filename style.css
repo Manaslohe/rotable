@@ -1,0 +1,1141 @@
+html {
+  scroll-behavior: smooth;
+}
+.rotable-homepage {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.rotable-homepage .div {
+  background-color: var(--black-100);
+  width: 1440px;
+  height: 3910px;
+  position: relative;
+}
+
+.rotable-homepage .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 839px;
+  top: 1770px;
+  left: 0;
+  background-color: #111111;
+}
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.rotable-homepage .frame {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 113px;
+  left: 576px;
+}
+
+.rotable-homepage .ellipse {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: #d9d9d9;
+  border-radius: 40px;
+}
+
+.rotable-homepage .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Open Sauce One-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white-100);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Open Sauce One-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--white-100);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 485px;
+  left: 576px;
+}
+
+.rotable-homepage .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 113px;
+  left: 120px;
+}
+
+.rotable-homepage .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 485px;
+  left: 120px;
+}
+
+.rotable-homepage .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 113px;
+  left: 1032px;
+}
+
+.rotable-homepage .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 485px;
+  left: 1032px;
+}
+
+.rotable-homepage .overlap-group {
+  position: absolute;
+  width: 1200px;
+  height: 1610px;
+  top: 59px;
+  left: 120px;
+}
+
+.rotable-homepage .overlap-2 {
+  position: absolute;
+  width: 1200px;
+  height: 1542px;
+  top: 0;
+  left: 0;
+}
+
+.rotable-homepage .overlap-3 {
+  position: absolute;
+  width: 766px;
+  height: 1542px;
+  top: 0;
+  left: 434px;
+}
+
+.rotable-homepage .image {
+  top: 0;
+  left: 433px;
+  position: absolute;
+  width: 322px;
+  height: 672px;
+  object-fit: cover;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 1s ease-in-out 4s,transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px; /* Transition properties with a delay of 5 seconds */
+}
+
+.rotable-homepage .image:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
+}
+
+.rotable-homepage .vector {
+  position: absolute;
+  width: 276px;
+  height: 312px;
+  top: 595px;
+  left: 163px;
+}
+
+.rotable-homepage .image-1 {
+  top: 800px;
+  position: absolute;
+  width: 321px;
+  height: 672px;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px;
+}
+.rotable-homepage .image-1:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
+}
+.rotable-homepage .image-2 {
+  top: 870px;
+  left: 433px;
+  position: absolute;
+  width: 320px;
+  height: 672px;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px;
+}
+.rotable-homepage .image-2:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
+}
+
+
+/* Base styles for .text-wrapper-2 */
+/* Base styles for .text-wrapper-2 */
+.rotable-homepage .text-wrapper-2,
+.rotable-homepage .text-wrapper-3 {
+  position: absolute;
+  font-family: "Open Sauce One-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+  opacity: 1; /* Start with opacity set to 0 */
+  transition: opacity 0.5s ease 4s, color 0.5s ease; /* Add transitions for opacity and color changes with a 4-second delay */
+}
+
+.rotable-homepage .text-wrapper-2 {
+  top: 16px;
+  left: 714px;
+  color: var(--green-1);
+}
+
+.rotable-homepage .text-wrapper-2:hover {
+  opacity: 1; /* Set opacity to 1 on hover */
+  color: var(--white-100); /* Change text color to white on hover */
+}
+
+/* Base styles for .text-wrapper-3 */
+.rotable-homepage .text-wrapper-3 {
+  top: 16px;
+  left: 526px;
+  color: var(--white-100);
+}
+
+/* Apply the fade-in animation to the text-wrapper-3 element */
+.rotable-homepage .text-wrapper-3:hover {
+  opacity: 1; /* Set opacity to 1 on hover */
+  color: var(--green-1); /* Change text color to green on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .text-wrapper-2,
+  .rotable-homepage .text-wrapper-3 {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 20px; /* Adjust line height for smaller screens */
+  }
+}
+
+
+
+
+.rotable-homepage .text-wrapper-4 {
+  position: absolute;
+  width: 802px;
+  top: 122px;
+  left: 0;
+  font-family: "Open Sauce One-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white-100);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  transform: translateX(-100%); /* Initial position outside the viewport */
+  opacity: 0; /* Initially set opacity to 0 */
+  animation: fadeIn 2s ease-in-out forwards 3s; /* Slower animation with a delay */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%); /* Start from outside the viewport on the left */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* Move to the original position */
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .text-wrapper-4 {
+    width: 100%; /* Adjust width for smaller screens */
+    font-size: 36px; /* Adjust font size for smaller screens */
+    top: 20px; /* Adjust top position for smaller screens */
+  }
+}
+
+
+.rotable-homepage .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 11px;
+  left: 0;
+}
+
+.rotable-homepage .rotable-logo {
+  position: relative;
+  width: 39px;
+  height: 35px;
+}
+
+.rotable-homepage .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Open Sauce One-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white-100);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.rotable-homepage .text-wrapper-6 {
+  position: absolute;
+  width: 288px;
+  top: 759px;
+  left: 0;
+  font-family: "Open Sauce One-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white-100);
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 1; /* Initially set opacity to 1 */
+}
+
+.rotable-homepage .frame-8 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  top: 317px;
+  left: 0;
+}
+
+.rotable-homepage .download-on-the-app {
+  position: relative;
+  width: 180.87px;
+  height: 60px;
+  transition: all 0.3s ease; /* Add a smooth transition for a smoother hover effect */
+}
+
+.rotable-homepage .download-on-the-app:hover {
+  box-shadow: 0 0 10px 4px rgb(83, 255, 152); /* Increase blur and spread for a more visible shadow effect */
+  border-radius: 14px; /* Adjust the radius to make corners smooth on hover */
+}
+.rotable-homepage .en-badge-web-generic {
+  position: relative;
+  width: 201.3px;
+  height: 60px;
+ transition: all 0.3s ease; /* Add a smooth transition for a smoother hover effect */
+}
+.rotable-homepage .en-badge-web-generic:hover {
+  box-shadow: 0 0 10px 4px rgb(83, 255, 152); /* Increase blur and spread for a more visible shadow effect */
+  border-radius: 14px; /* Adjust the radius to make corners smooth on hover */
+}
+
+.rotable-homepage .group {
+  position: absolute;
+  width: 118px;
+  height: 118px;
+  top: 504px;
+  left: 1px;
+}
+
+.rotable-homepage .overlap-4 {
+  position: relative;
+  width: 176px;
+  height: 118px;
+}
+.image11 img {
+  width: 120px; /* Adjust the width if needed */
+  height: 120px; /* Maintain aspect ratio */
+  animation: rotateImage 10s linear infinite; /* Slow down the rotation duration */
+  transition: transform 0.3s ease; /* Add a smooth transition for scaling */
+}
+
+.image11 img:hover {
+  transform: scale(1.2); /* Expand the image on hover */
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media query for screens smaller than 600px (adjust the value as needed) */
+@media screen and (max-width: 600px) {
+  .image11 img {
+    width: 80px; /* Adjust the width for smaller screens */
+    height: 80px; /* Maintain aspect ratio */
+  }
+}
+
+
+
+.rotable-homepage .EXPLORE-MORE-EXPLORE {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  overflow: hidden; /* Hide overflowing content */
+  transition: transform 0.3s ease; /* Add a smooth transition for scaling */
+}
+
+.rotable-homepage .EXPLORE-MORE-EXPLORE:hover {
+  transform: scale(1.2); /* Expand the image on hover */
+}
+
+
+.rotable-homepage .text-wrapper-7 {
+  left: 50px;
+  transform: rotate(-6.2deg);
+  position: absolute;
+  top: 0;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-8 {
+  position: absolute;
+  top: 2px;
+  left: 46px;
+  transform: rotate(-12.6deg);
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .overlap-5 {
+  position: absolute;
+  width: 47px;
+  height: 113px;
+  top: 3px;
+  left: 0;
+}
+
+.rotable-homepage .text-wrapper-9 {
+  position: absolute;
+  top: 1px;
+  left: 36px;
+  transform: rotate(-21.79deg);
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .overlap-6 {
+  position: absolute;
+  width: 37px;
+  height: 100px;
+  top: 6px;
+  left: 0;
+}
+
+.rotable-homepage .text-wrapper-10 {
+  position: absolute;
+  top: 1px;
+  left: 25px;
+  transform: rotate(-35.45deg);
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .overlap-group-2 {
+  position: absolute;
+  width: 29px;
+  height: 84px;
+  top: 8px;
+  left: 0;
+}
+
+.rotable-homepage .text-wrapper-11 {
+  position: absolute;
+  top: 1px;
+  left: 15px;
+  transform: rotate(-50.3deg);
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-12 {
+  position: absolute;
+  top: 14px;
+  left: 6px;
+  transform: rotate(-67.54deg);
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-13 {
+  top: 27px;
+  left: 8px;
+  transform: rotate(-79.73deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-14 {
+  top: 33px;
+  left: 4px;
+  transform: rotate(-88.92deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-15 {
+  top: 46px;
+  left: 5px;
+  transform: rotate(-102.57deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-16 {
+  top: 58px;
+  left: 8px;
+  transform: rotate(-117.42deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-17 {
+  top: 69px;
+  left: 17px;
+  transform: rotate(-131.67deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-18 {
+  top: 84px;
+  left: 24px;
+  transform: rotate(-144.14deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-19 {
+  top: 97px;
+  left: 35px;
+  transform: rotate(-157.8deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-20 {
+  top: 103px;
+  left: 48px;
+  transform: rotate(-172.04deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .overlap-7 {
+  position: absolute;
+  width: 7px;
+  height: 16px;
+  top: 103px;
+  left: 62px;
+}
+
+.rotable-homepage .text-wrapper-21 {
+  top: 1px;
+  left: 0;
+  transform: rotate(178.77deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-22 {
+  left: 1px;
+  transform: rotate(172.37deg);
+  position: absolute;
+  top: 0;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-23 {
+  top: 101px;
+  left: 73px;
+  transform: rotate(165.96deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .overlap-8 {
+  position: absolute;
+  width: 48px;
+  height: 113px;
+  top: 2px;
+  left: 70px;
+}
+
+.rotable-homepage .text-wrapper-24 {
+  top: 97px;
+  left: 5px;
+  transform: rotate(156.77deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .overlap-9 {
+  position: absolute;
+  width: 37px;
+  height: 100px;
+  top: 6px;
+  left: 11px;
+}
+
+.rotable-homepage .text-wrapper-25 {
+  top: 84px;
+  left: 5px;
+  transform: rotate(143.12deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .overlap-10 {
+  position: absolute;
+  width: 30px;
+  height: 84px;
+  top: 7px;
+  left: 7px;
+}
+
+.rotable-homepage .text-wrapper-26 {
+  top: 68px;
+  left: 6px;
+  transform: rotate(128.27deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-27 {
+  position: absolute;
+  top: 54px;
+  left: 13px;
+  transform: rotate(111.03deg);
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-28 {
+  top: 42px;
+  left: 22px;
+  transform: rotate(98.84deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-29 {
+  top: 35px;
+  left: 18px;
+  transform: rotate(89.65deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-30 {
+  top: 23px;
+  left: 16px;
+  transform: rotate(75.99deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-31 {
+  top: 11px;
+  left: 11px;
+  transform: rotate(61.14deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-32 {
+  top: 0;
+  left: 4px;
+  transform: rotate(46.9deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-33 {
+  top: 1px;
+  left: 4px;
+  transform: rotate(34.43deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-34 {
+  top: 1px;
+  left: 2px;
+  transform: rotate(20.77deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .text-wrapper-35 {
+  top: 1px;
+  left: 61px;
+  transform: rotate(6.53deg);
+  position: absolute;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.rotable-homepage .arrow {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 31px;
+  left: 31px;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ffffff;
+  transform: rotate(90deg);
+}
+
+.rotable-homepage .arrow-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 15px;
+  left: 15px;
+  transform: rotate(-90deg);
+}
+
+.vector {
+  width: 100px; /* Set the width as needed */
+  height: 100px; /* Set the height as needed */
+  transition: fill 0.5s ease-in-out; /* Add transition for a smooth color change */
+}
+
+.rotable-homepage .image-3 {
+  top: 865px;
+  left: -430px;
+  position: absolute;
+  width: 320px;
+  height: 672px;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out,box-shadow 0.5s;
+  border-radius: 58px;
+}
+
+.rotable-homepage .image-3:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
+  box-shadow: 0 0 20px rgb(50, 205, 50), 0 0 40px rgb(50, 205, 50); /* Updated box shadow on hover */
+}
+
+
+.rotable-homepage .element-rotable {
+  position: absolute;
+  top: 3821px;
+  left: 544px;
+  font-family: "Open Sauce One-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white-100);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.rotable-homepage .overlap-11 {
+  position: absolute;
+  width: 1070px;
+  height: 645px;
+  top: 2778px;
+  left: 196px;
+}
+
+.rotable-homepage .rotable-logo-2 {
+  position: absolute;
+  width: 588px;
+  height: 527px;
+  top: -30px;
+  left: 100px;
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transition properties */
+  box-shadow: 0 0 10px rgba(98, 241, 98, 0); /* Initially set box-shadow to transparent */
+}
+
+.rotable-homepage .rotable-logo-2:hover {
+  opacity: 1; /* Set opacity to 1 on hover */
+  transform: rotateY(180deg); /* Rotate the element on hover */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .rotable-logo-2 {
+    width: 100%; /* Adjust width for smaller screens */
+    height: auto; /* Allow height to adjust automatically */
+    top: 20px; /* Adjust top position for smaller screens */
+    left: 50%; /* Move the left edge to the center */
+    transform: translateX(-50%); /* Center the element using transform */
+  }
+}
+
+.rotable-homepage .layer {
+  position: absolute;
+  width: 1070px;
+  height: 645px;
+  top: -190px;
+  left: -120px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out,transform 0.5s ease-in-out,box-shadow 0.5s; /* Transition properties for smooth opacity change */
+}
+.rotable-homepage .layer:hover {
+  opacity: 0.8; /* Adjust the hover opacity as needed */
+  transform: scale(1.3); /* Adjust the scale factor for the hover effect */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .layer {
+    width: 100%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+
+.rotable-homepage .buttons {
+  display: flex;
+  width: 350px;
+  align-items: flex-start;
+  position: absolute;
+  top: 3400px; /* Position from the top center */
+  left: 50%; /* Position from the left center */
+  transform: translate(-50%, -50%); /* Center the element using transform */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .rotable-homepage .buttons {
+    width: 100%; /* Adjust width for smaller screens */
+    align-items: center; /* Center items on smaller screens */
+    left: 50%;
+  }
+}
+
+
+.rotable-homepage .main-button {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 26px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.rotable-homepage .button {
+  position: relative;
+  width: fit-content;
+  font-family: "Open Sauce One-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--black-90);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.rotable-homepage .arrow-wrapper {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  background-color: #ffffff;
+  border-radius: 28px;
+}
+
+.rotable-homepage .arrow-3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 16px;
+}
+
+.rotable-homepage .buttons-2 {
+  display: flex;
+  width: 350px;
+  align-items: flex-start;
+  position: absolute;
+  align-items: center;
+  top: 3500px;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the element using transform */
+}
+
+.rotable-homepage .button-wrapper {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 26px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 60px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.rotable-homepage .button-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Open Sauce One-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--white-100);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.rotable-homepage .frame-wrapper {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.rotable-homepage .frame-9 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 15px;
+  left: 15px;
+}
